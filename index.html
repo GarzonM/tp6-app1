@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Personas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gestión de Personas</h1>
+  <form id="personForm">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="text" id="apellido" placeholder="Apellido" required />
+    <input type="number" id="edad" placeholder="Edad" required />
+    <button type="submit">Guardar</button>
+  </form>
+  <ul id="personList"></ul>
+  <script type="module" src="app/presentation/ui.js"></script>
+</body>
+</html>
